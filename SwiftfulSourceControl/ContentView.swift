@@ -44,7 +44,7 @@ struct ContentView: View {
             ScrollView {
                 VStack {
                     ForEach(0..<5) { _ in
-                        Image(systemName: "magnfiyingglass")
+                        Image(systemName: "globe")
                             .font(.largeTitle)
                             .foregroundStyle(.tint)
                         Text("Swiftful Thinking")
