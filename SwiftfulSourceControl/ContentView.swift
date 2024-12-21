@@ -45,7 +45,7 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .foregroundStyle(.tint)
             Text("Swiftful Thinking!")
-            Button("Subscribe now!"){
+            Button("Subscribe now"){
                 
             }
             
