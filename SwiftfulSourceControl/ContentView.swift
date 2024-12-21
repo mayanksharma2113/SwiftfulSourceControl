@@ -41,6 +41,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            Image(systemName: "globe")
+                .font(.largeTitle)
+                .foregroundStyle(.tint)
+            Text("Some New Title!")
+            Button("Click me"){
+                
+            }
             
             ScrollView {
                 VStack {
