@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ProfileView: View {
     
-    @State private var isPresented: Bool = false
+    @State private var isPresented: Bool = true
     
     var body: some View {
         Text("Nick!!")
